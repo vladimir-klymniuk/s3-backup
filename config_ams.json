@@ -1,0 +1,84 @@
+{
+    "influx": "http://domainname.net:8086/write?db=s3backup",
+    "servers": [{
+        "folder": "folder26/",
+        "url": "url",
+        "hostname": "-------------"
+      }, {
+        "folder": "folder27/",
+        "url": "url",
+        "hostname": "------------"
+       }, {
+        "folder": "folder28/",
+        "url": "url",
+        "hostname": "-----------"
+       }, {
+        "folder": "folder29/",
+        "url": "url",
+        "hostname": "----------"
+       }, {
+        "folder": "folder50/",
+        "url": "url",
+        "hostname": "---------"
+       }, {
+        "folder": "folder51/",
+        "url": "url",
+        "hostname": "---------"
+       }, {
+        "folder": "folder52/",
+        "url": "url",
+        "hostname": "---------"
+       }, {
+        "folder": "folder53/",
+        "url": "url",
+        "hostname": "-------"
+       }, {
+        "folder": "folder54/",
+        "url": "url",
+        "hostname": "-------"
+       }, {
+        "folder": "folder55/",
+        "url": "url",
+        "hostname": "------"
+       }, {
+        "folder": "folder56/",
+        "url": "url",
+        "hostname": "-----"
+       }, {
+        "folder": "folder57/",
+        "url": "url",
+        "hostname": "----"
+       }, {
+        "folder": "folder58/",
+        "url": "url",
+        "hostname": "---"
+       }, {
+        "folder": "folder59/",
+        "url": "url",
+        "hostname": "--"
+       }, {
+        "folder": "folder60/",
+        "url": "url",
+        "hostname": "-"
+    }],
+    "info": {
+      "path": "/home/dk/data/log/",
+      "log_folder": "/home/dk/log/s3_backup",
+      "file_status": "/home/dk/log/s3_backup/status.log",
+      "output_path": "/home/dk/s3_backup/output/",
+      "remote_folder": "/home/dk/log/impressions_V02/",
+      "version": 2,
+      "types": [{
+        "fileprefix": "click_imp",
+        "foldersuffix": "clicks"
+      }, {
+        "fileprefix": "imp",
+        "foldersuffix": "impressions"
+      }]
+    },
+    "s3_server": {
+      "bucket": "manageteam-ads-raw-ingest",
+      "path_template": "input/{0}/year={1}/month={2}/day={3}/hour={4}/"
+    }
+  }
+  

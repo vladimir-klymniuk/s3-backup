@@ -1,0 +1,25 @@
+{
+    "influx": "http://domainname.net:8086/write?db=s3backup",
+    "servers": [{
+      "folder": "folder/",
+      "url": "folder",
+      "hostname": "hostname"
+    }],
+    "info": {
+      "path": "/home/dk/data/log/",
+      "log_folder": "/home/dk/log/s3_backup",
+      "file_status": "/home/dk/log/s3_backup/status.log",
+      "output_path": "/home/dk/s3_backup/output/",
+      "remote_folder": "/home/dk/log/impressions_V02/",
+      "version": 2,
+      "types": [{
+        "fileprefix": "click_imp",
+        "foldersuffix": "clicks"
+      }]
+    },
+    "s3_server": {
+      "bucket": "mg-ads-raw-ingest",
+      "path_template": "input/{0}/year={1}/month={2}/day={3}/hour={4}/"
+    }
+  }
+  
